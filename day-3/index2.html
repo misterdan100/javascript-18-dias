@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-slate-200 text-white px-10 flex h-screen">
+    <div class="bg-slate-800 text-center mx-auto rounded-3xl p-4 shadow-2xl my-auto" style="width: 700px;">
+        <h1 class="text-3xl my-4 uppercase">Responde las preguntas en 30 Segundos</h1>
+
+        <div class="inline-block border-rounded bg-slate-200 rounded-full">
+            <div id="contador" class="inline-block text-black font-bold text-6xl m-8">30</div>
+        </div>
+
+        <form class="flex flex-col items-center w-full my-8 mx-auto">
+            <label for="1">Cual es tu nombre</label>
+            <input type="text" id="n1" name="1" class="mb-4 text-black px-2 w-1/2 text-center">
+            
+            <label for="2">Cual es tu edad</label>
+            <input type="text" id="n2" name="2" class="mb-4 text-black px-2 w-1/2 text-center">
+    
+            <label for="3">Donde vives?</label>
+            <input type="text" id="n3" name="3" class="mb-4 text-black px-2 w-1/2 text-center">
+    
+            <label for="4">Tu comida favorita es?</label>
+            <input type="text" id="n4" name="4" class="mb-4 text-black px-2 w-1/2 text-center">
+    
+            <label for="5">Cual es el nombre de tu mascota?</label>
+            <input type="text" id="n5" name="5" class="mb-4 text-black px-2 w-1/2 text-center">
+        </form>
+    
+        <div >
+            <button id="reiniciar" class="p-4 bg-red-600 font-bold uppercase rounded-2xl m-4 hover:bg-red-800">Reiniciar</button>
+            <button id="listo" class="p-4 bg-lime-600 font-bold uppercase rounded-2xl m-4 hover:bg-lime-800">Listo</button>
+        </div>
+        <audio src="008-alarma.mp3" id="alarma"></audio>
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

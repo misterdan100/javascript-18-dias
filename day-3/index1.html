@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ingresa Tu Nombre:</p>
+    <input type="text" id="nombreDeUsuario">
+    
+
+    <h1></h1>
+
+    <script>
+        const input = document.querySelector('input');
+        const titulo = document.querySelector('h1')
+        input.addEventListener('change', e => {
+            titulo.textContent = e.target.value;
+        });
+
+
+    </script>
+    
+</body>
+</html>
