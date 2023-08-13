@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Day 4 | Calculator</title>
+  </head>
+  <body class="bg-slate-800 w-screen h-screen flex place-content-center">
+
+    <div id="calculadora" class="my-auto bg-slate-100 rounded-3xl p-8 shadow-2xl">
+      <h1 id="titulo" class="text-3xl text-center uppercase font-bold text-gray-700 pb-6">Calculadora de 2 numeros</h1>
+
+      <div id="inputs" class="flex justify-between gap-3 mb-6">
+        <div class="flex flex-col text-center w-full">
+          <label for="number1" class="font-bold mb-1 uppercase text-sky-800">Valor 1</label>
+          <input type="number" name="number1" id="number1" class="p-2 text-center rounded-xl font-bold border-2 border-sky-700" >
+        </div>
+        
+        <div class="flex flex-col text-center  w-full">
+          <label for="number2" class="font-bold mb-1 uppercase text-sky-800">Valor 2</label>
+          <input type="number" name="number2" id="number2" class="p-2 text-center rounded-xl font-bold border-2 border-sky-700" >
+        </div>
+
+      </div>
+
+      <div id="operaciones-basicas" class="flex gap-3 mb-6">
+        <button id="sumar" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">+</button>
+        <button id="restar" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">-</button>
+        <button id="multiplicar" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">x</button>
+        <button id="dividir" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">/</button>
+      </div>
+      
+      <div id="operaciones-avanzadas" class="grid grid-cols-2 gap-3 mb-6">
+        <button id="potencia" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">potencia</button>
+        <button id="raiz" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">raiz</button>
+        <button id="absoluto" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">absoluto</button>
+        <button id="random" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">random</button>
+      </div>
+
+      <p id="resultado" class="bg-white mb-6 p-2 text-center rounded-xl font-bold text-gray-700 text-2xl border-2 border-sky-700">resultado</p>
+
+      <div id="extras" class="flex gap-3">
+        <button id="round" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">round</button>
+        <button id="floor" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">floor</button>
+        <button id="ceil" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-xl text-sky-700 uppercase hover:bg-sky-300">ceil</button>
+      </div>
+
+
+    </div>
+
+
+    <script src="calculadora.js"></script>
+  </body>
+</html>
