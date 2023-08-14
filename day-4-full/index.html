@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Day 4 | Calculator</title>
+  </head>
+  <body class="bg-[url('https://images.pexels.com/photos/3297593/pexels-photo-3297593.jpeg?cs=srgb&dl=pexels-matheus-natan-3297593.jpg&fm=jpg&h=1440&w=2560&fit=crop')] bg-cover bg-center w-screen h-screen flex flex-col justify-center items-center">
+
+    <div id="calculadora" class="w-96 my-auto bg-slate-100 rounded-3xl p-8 shadow-2xl bg-white/60 backdrop-blur-md">
+      <h1 id="titulo" class="text-3xl text-center uppercase font-bold text-gray-700 pb-6">DAN Calculator</h1>
+
+      <div id="inputs" class="flex flex-col gap-3 mb-10">
+        <p id="valoresCalcular" class="p-2 text-right text-2xl font-medium w-full "></p>
+        <p  class="p-2 text-right text-6xl font-bold w-full">=<span id="resultado"></span></p>
+      </div>
+
+
+      <div id="botones">
+        <div id="fila1" class="flex gap-3 mb-6">
+          <button id="ac" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300 ">Ac</button>
+          <button id="del" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">Del</button>
+          <button id="porcentaje" name="number" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">%</button>
+          <button id="dividir" name="operador" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">/</button>
+        </div>
+        
+        <div id="fila2" class="flex gap-3 mb-6">
+          <button id="n7" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">7</button>
+          <button id="n8" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">8</button>
+          <button id="n9" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">9</button>
+          <button id="multiplicar" name="operador" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">*</button>
+        </div>
+        
+        <div id="fila3" class="flex gap-3 mb-6">
+          <button id="n4" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">4</button>
+          <button id="n5" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">5</button>
+          <button id="n6" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">6</button>
+          <button id="restar" name="operador" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">-</button>
+        </div>
+        
+        <div id="fila4" class="flex gap-3 mb-6">
+          <button id="n1" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">1</button>
+          <button id="n2" name="number" class="w-full bg-white rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">2</button>
+          <button id="n3" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">3</button>
+          <button id="sumar" name="operador" class="w-full bg-sky-200 h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">+</button>
+        </div>
+        
+        <div id="fila5" class="flex gap-3 mb-6">
+          <button id="n00" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">00</button>
+          <button id="n0" name="number" class="w-full bg-white h-12 rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">0</button>
+          <button id="punto" name="number" class="w-full bg-white rounded-xl font-bold text-2xl text-sky-700 hover:bg-sky-300">.</button>
+          <button id="calcular" class="w-full bg-sky-500 h-12 rounded-xl font-bold text-2xl text-sky-100 hover:bg-sky-300 shadow-xl">=</button>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <p class="mb-4 italic text-gray-500">developed by <a href="https://github.com/misterdan100" target="_blank" class="text-sky-600 hover:text-sky-900 underline">Daniel Caceres</a></p>
+
+
+
+
+    <script src="calculadora.js"></script>
+  </body>
+</html>
