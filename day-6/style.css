@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app-container {
+    width: 640px;
+}
+
+img {
+    height: 160px;
+}
+
+li label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 6px;
+}
+
+li input {
+    border-radius: 8px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: large;
+}

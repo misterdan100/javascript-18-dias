@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body class="grid place-content-center h-screen">
+    <div id="app-container" class="bg-gray-100 rounded-3xl shadow-xl p-6">
+      <img src="https://q.plataformaintegra.net/pombo/img/colegio/escudo_auth.jpg" alt="" class="text-center w-full object-contain">
+
+      <h1 class="text-2xl text-blue-700 font-bold text-center mb-6">Bienvenido a tu Boletin Estudiantil</h1>
+
+      <div class="mb-6 w-full flex items-center">
+        <label for="nombre" class="text-red-700 text-xl font-bold text-center">Alumno:</label>
+        <input type="text" id="nombre" placeholder="Escribe el Nombre del Alumno" 
+        class="text-lg font-bold py-1 px-2 rounded-xl ml-3 inline-block grow">
+      </div>
+
+      <div id="notas" class="mb-6">
+        <p class="text-lg font-bold mb-2">Ingresa las notas del estudiante ( 0 - 10 ):</p>
+        <ul>
+          <li>
+            <label for="matematicas">Matematicas: </label>
+            <input type="number" id="matematicas" name="nota" min="0" max="10" placeholder="8.5">
+          </li>
+          <li>
+            <label for="literatura">Literatura: </label>
+            <input type="number" id="literatura" name="nota" min="0" max="10">
+          </li>
+          <li>
+            <label for="ciencias">Ciencias: </label>
+            <input type="number" id="ciencias" name="nota" min="0" max="10">
+          </li>
+          <li>
+            <label for="deportes">Deportes: </label>
+            <input type="number" id="deportes" name="nota" min="0" max="10">
+          </li>
+          <li>
+            <label for="tecnologia">Tecnologia: </label>
+            <input type="number" id="tecnologia" name="nota" min="0" max="10">
+          </li>
+        </ul>
+      </div>
+
+      <div id="div-Promedio" class="mb-6">
+        <p id="promedio" class="text-lg font-bold mb-2">Promedio:</p>
+        <div>
+          <button id="btn-promedio" class="font-bold bg-yellow-400 py-2 px-4 rounded-xl border-2 hover:bg-yellow-500 hover:border-yellow-600">Calcular Promedio</button>
+          <p id="resultadoPromedio" class="text-xl font-bold underline border-2 inline-block p-1 rounded-xl "></p>
+        </div>
+      </div>
+
+      <div id="div-NotaAlta" class="mb-6">
+        <p id="notaAlta" class="text-lg font-bold mb-2">Nota mas Alta:</p>
+        <div>
+          <button id="btn-notaAlta" class="font-bold bg-yellow-400 py-2 px-4 rounded-xl border-2 hover:bg-yellow-500 hover:border-yellow-600">Buscar la Nota Mas Alta</button>
+          <p id="resultadoNotaAlta" class="text-xl font-bold underline border-2 inline-block p-1 rounded-xl "></p>
+        </div>
+      </div>
+
+      <div id="div-Aplazo" class="mb-6">
+        <p id="aplazo" class="text-lg font-bold mb-2">Hubo algun Aplazo?:</p>
+        <div>
+          <button id="btn-aplazo" class="font-bold bg-yellow-400 py-2 px-4 rounded-xl border-2 hover:bg-yellow-500 hover:border-yellow-600">Consultar Aplazo</button>
+          <p id="resultadoAplazo" class="text-xl font-bold underline border-2 inline-block p-1 rounded-xl "></p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
