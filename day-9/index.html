@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body class="flex justify-center bg-gray-700">
+    <div id="app" class="bg-gray-100 rounded-2xl p-6 shadow-xl mt-2">
+      <h1 class="text-6xl uppercase text-center text-orange-600 font-extrabold">Registro de Autos</h1>
+      <form id="form">
+        <label for="marca">Marca: </label>
+        <input type="text" id="marca" placeholder="Toyota">
+
+        <label for="modelo">Modelo: </label>
+        <input type="text" id="modelo" placeholder="RAV-4">
+
+        <label for="color">Color: </label>
+        <input type="text" id="color" placeholder="Negro">
+
+        <label for="year">Año: </label>
+        <select type="text" id="year" placeholder="2014"></select>
+
+        <label for="titular">Titular: </label>
+        <input type="text" id="titular" placeholder="Lucas Ortiz"></input>
+
+        <div id="divEstado">
+          <p>Estado:</p>
+
+          <input type="radio" id="enVenta" name="estado" ></input>
+          <label for="enVenta">En Venta </label>
+
+          <input type="radio" id="vendido" name="estado" ></input>
+          <label for="vendido">Vendido </label>
+
+        </div>
+
+      </form>
+
+    </div>
+
+<!--     ! 
+    - constructor para automovil (modelo, color, anio, titular, estado(vendido, en venta))
+    - crear formulario para ingresar nuevos automoviles usando el constructor
+    - mediante el prototipo del constructor agregar 3 metodos para los automoviles
+      - Metodo 1: vernderAutomovil(nuevoTitular), pedir nombre del nuevo duenio con un prompt
+      - Metodo 2: verAuto() muestra la informacion del auto en un texto "[marca] [modelo] - [anio] - [titular] - [estado]"
+      - Metodo 3: ponerEnVenta() cambia el estado del automovil a: el automovil esta en venta
+    - agregar un boton para mostrar todos los autos y sus datos haciendo uso del metodo verAuto()
+     -->
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
