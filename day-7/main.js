@@ -10,37 +10,50 @@ btnMayorMenor.addEventListener('click', calcularMayorMenor)
 
 function mostrarTiendas(e) {
 
-    const cantidadTiendas = Number(e.target.value);
+    const numeroTiendas2 = document.querySelector('#numeroTiendas');
+    const cantidadTiendas2 = numeroTiendas.value;
+    console.log(`esto es numero de tiendas: ${cantidadTiendas2}`);
 
-    if (cantidadTiendas > 0) {
+    if (cantidadTiendas2 > 0) {
 
         let cantidadLi = ulLista.childElementCount;
 
-        if (cantidadTiendas > cantidadLi) {
+        if (cantidadTiendas2 > cantidadLi) {
             //* entra a agregar tiendas
-            for (let i = 1; i <= cantidadTiendas; i++) {
-                //*crea elemento html
-                let cantidadLi = document.querySelector('ul').childElementCount;
-                if (cantidadTiendas > cantidadLi) {
-                    const nuevaTienda = document.createElement('li');
-                    nuevaTienda.id = `ventasTienda1`;
-                    nuevaTienda.classList.add('mb-2')
-                    nuevaTienda.innerHTML = `
-                      <label for="tienda1" class="text-base">Tienda ${i}:</label>
-                      <input type="number" placeholder="$ 120.000" class="bg-gray-100 px-3 py-1 rounded-lg ml-1 w-44 border-2" name="ventas">
-                      `
-                    ulLista.appendChild(nuevaTienda);
+            for (let i = 1; i <= cantidadTiendas2; i++) {
 
-                }
-            }
+                //*evaluar si el elemento con id=i existe
+                const inputsVentas = document.querySelectorAll('[name="ventas"]');
+                const existe = inputsVentas[i-1];
+
+                if (!existe) { //* si no existe lo crea
+                    //*crea elemento html
+                        const nuevaTienda = document.createElement('li');
+                        nuevaTienda.id = `ventasTienda${i}`;
+                        nuevaTienda.classList.add('mb-4')
+                        nuevaTienda.innerHTML = `
+                      <label for="tienda1" class="text-base">Tienda ${i}:</label>
+                      <input id="${i}" type="number" placeholder="$ 120.000" class="bg-gray-100 px-3 py-1 rounded-lg ml-1 w-44 border-2" name="ventas">
+                      `
+                        ulLista.appendChild(nuevaTienda);
+
+                    
+                } else { //* Si ya existe continue - no lo crea
+                    continue
+                };
+            }; //* cierra ciclo for ---------------------
 
         } else {
-            const ultimoHijo = ulLista.lastChild;
-            ulLista.removeChild(ultimoHijo)
-        }
+            const numeroEliminar =  cantidadLi - cantidadTiendas2;
+            for( let i = 0; i < numeroEliminar; i++) {
+                const ultimoHijo = ulLista.lastChild;
+                ulLista.removeChild(ultimoHijo)
+
+            };
+        };
     } else {
         limpiarTiendas();
-    }
+    };
 }
 
 function limpiarTiendas() {
@@ -77,19 +90,16 @@ function calcularMayorMenor() {
         }
     }
 
-
     //* asignar mayor
     for (let tienda of verVentas) {
         if (Number(tienda.value) === menor) {
-            // tienda.classList.replace('bg-gray-100', 'bg-lime-500')
-            tienda.classList.add( 'border-red-500')
+            tienda.classList.add('border-red-500')
         }
     }
+
     //* asignar mayor
     for (let tienda of verVentas) {
         if (Number(tienda.value) === mayor) {
-
-            // tienda.classList.replace('bg-gray-100', 'bg-lime-500')
             tienda.classList.add('border-lime-500')
         }
     }
