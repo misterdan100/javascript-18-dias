@@ -9,35 +9,58 @@
   </head>
   <body class="flex justify-center bg-gray-700">
     <div id="app" class="bg-gray-100 rounded-2xl p-6 shadow-xl mt-2">
-      <h1 class="text-6xl uppercase text-center text-orange-600 font-extrabold">Registro de Autos</h1>
-      <form id="form">
-        <label for="marca">Marca: </label>
-        <input type="text" id="marca" placeholder="Toyota">
 
-        <label for="modelo">Modelo: </label>
-        <input type="text" id="modelo" placeholder="RAV-4">
+      <h1 class="text-6xl uppercase text-center text-orange-600 font-extrabold mb-8">Registro de Autos</h1>
 
-        <label for="color">Color: </label>
-        <input type="text" id="color" placeholder="Negro">
+      <form id="form" class="flex flex-wrap mb-10 gap-4">
+        <div>
+          <label for="marca">Marca: </label>
+          <input type="text" id="marca" placeholder="Toyota">
+        </div>
 
-        <label for="year">Año: </label>
-        <select type="text" id="year" placeholder="2014"></select>
+        <div>
+          <label for="modelo">Modelo: </label>
+          <input type="text" id="modelo" placeholder="RAV-4">
+        </div>
 
-        <label for="titular">Titular: </label>
-        <input type="text" id="titular" placeholder="Lucas Ortiz"></input>
+        <div>
+          <label for="color">Color: </label>
+          <input type="text" id="color" placeholder="Negro">
+        </div>
+
+        <div>
+          <label for="year">Año: </label>
+          <select type="text" id="year" placeholder="2014">
+            <option value=""></option>
+
+          </select>
+        </div>
+
+        <div>
+          <label for="titular">Titular: </label>
+          <input type="text" id="titular" placeholder="Lucas Ortiz"></input>
+        </div>
 
         <div id="divEstado">
           <p>Estado:</p>
 
           <input type="radio" id="enVenta" name="estado" ></input>
-          <label for="enVenta">En Venta </label>
+          <label for="enVenta">En Venta</label>
 
           <input type="radio" id="vendido" name="estado" ></input>
-          <label for="vendido">Vendido </label>
-
+          <label for="vendido">Vendido</label>
         </div>
+        
 
+        <div>
+          <button id="registrar">Crear Registro</button>
+          <button id="mostrarAutos">Mostrar Autos</button>
+        </div>
       </form>
+
+      <div id="autosContainer" class="bg-white">
+
+      </div>
 
     </div>
 
