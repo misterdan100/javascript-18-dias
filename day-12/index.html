@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body class="">
+    <div id="app" class="grid p-10 justify-items-center">
+      <h1 class="text-5xl mb-4">Movie Search Engine</h1>
+      <div class="h-2 w-64 bg-pink-400 rounded-full mb-8"></div>
+
+      <div class="py-4 px-8 border-2 border-gray-200 rounded-full mb-6">
+        <label for="selectCategories">Selecciona la Categoria:</label>
+        <select name="" id="selectCategories" class="px-4 py-2 bg-gray-100 rounded-full font-bold">
+          <option value="" disabled selected></option>
+          <option value="movies" class="font-bold">Movies</option>
+          <option value="series" class="font-bold">Series</option>
+        </select>
+      </div>
+
+      <div class="py-4 px-8 border-2 border-transparent hover:cursor-pointer hover:border-pink-400 rounded-full bg-gray-50 transition mb-8">
+        <input id="inputBuscar" type="text" placeholder="Buscar..." class="bg-gray-50 text-lg focus:outline-none w-80">
+        <button id="btnBuscar" class="font-bold uppercase ml-2">Buscar</button>
+      </div>
+
+      <ul id="ulContainer" class="flex flex-wrap justify-center gap-4">
+        <li class="w-64 bg-gray-100 border-2 border-transparent hover:border-pink-400 hover:drop-shadow-xl hover:scale-105 hover:cursor-pointer rounded-3xl transition p-4">
+          <p class="font-bold text-center mb-2 capitalize text-lg">Titulo de Pelicula (2021)</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0" alt="" class="shadow-lg object-cover">
+          <p class="text-center transition-all">El visionario Carroll Shelby y el conductor británico Ken Miles reciben la misión de construir un nuevo automóvil con el fin de derrocar el dominio de Ferrari en el Campeonato del Mundo de Le Mans de 1966.</p>
+        </li>
+        
+      </ul>
+
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+

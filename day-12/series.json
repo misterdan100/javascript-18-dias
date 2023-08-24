@@ -1,0 +1,124 @@
+{
+    "Data": [
+        {
+            "nombre": "Juego de Tronos",
+            "sinopsis": "Una serie épica de fantasía que sigue las luchas por el Trono de Hierro en el continente de Poniente.",
+            "year": "2011",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Friends",
+            "sinopsis": "Una comedia que sigue las vidas y relaciones de un grupo de amigos en Nueva York.",
+            "year": "1994",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Breaking Bad",
+            "sinopsis": "Un profesor de química se convierte en un fabricante de metanfetamina después de ser diagnosticado con cáncer.",
+            "year": "2008",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Stranger Things",
+            "sinopsis": "Un grupo de niños se enfrenta a fenómenos sobrenaturales en un pequeño pueblo.",
+            "year": "2016",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Office",
+            "sinopsis": "Una comedia que sigue la vida cotidiana de los empleados de una oficina de ventas de papel.",
+            "year": "2005",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Game of Thrones",
+            "sinopsis": "Una serie épica de fantasía que sigue las luchas por el Trono de Hierro en el continente de Poniente.",
+            "year": "2011",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Sherlock",
+            "sinopsis": "Una moderna adaptación de las historias de Sherlock Holmes en el Londres contemporáneo.",
+            "year": "2010",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Crown",
+            "sinopsis": "Un drama histórico que sigue el reinado de la Reina Isabel II del Reino Unido.",
+            "year": "2016",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Mandalorian",
+            "sinopsis": "Un cazarrecompensas viaja por la galaxia en el mundo de Star Wars.",
+            "year": "2019",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Big Bang Theory",
+            "sinopsis": "Una comedia sobre un grupo de científicos y su vida social.",
+            "year": "2007",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Westworld",
+            "sinopsis": "Un parque de atracciones futurista habitado por androides se vuelve peligroso para los visitantes.",
+            "year": "2016",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Stranger Things",
+            "sinopsis": "Un grupo de niños se enfrenta a fenómenos sobrenaturales en un pequeño pueblo.",
+            "year": "2016",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Black Mirror",
+            "sinopsis": "Una serie de antología que explora la relación entre la tecnología y la sociedad.",
+            "year": "2011",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Witcher",
+            "sinopsis": "Un cazador de monstruos busca su destino en un mundo lleno de criaturas y magia.",
+            "year": "2019",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Friends",
+            "sinopsis": "Una comedia que sigue las vidas y relaciones de un grupo de amigos en Nueva York.",
+            "year": "1994",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Office",
+            "sinopsis": "Una comedia que sigue la vida cotidiana de los empleados de una oficina de ventas de papel.",
+            "year": "2005",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Breaking Bad",
+            "sinopsis": "Un profesor de química se convierte en un fabricante de metanfetamina después de ser diagnosticado con cáncer.",
+            "year": "2008",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Crown",
+            "sinopsis": "Un drama histórico que sigue el reinado de la Reina Isabel II del Reino Unido.",
+            "year": "2016",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Mandalorian",
+            "sinopsis": "Un cazarrecompensas viaja por la galaxia en el mundo de Star Wars.",
+            "year": "2019",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "The Big Bang Theory",
+            "sinopsis": "Una comedia sobre un grupo de científicos y su vida social.",
+            "year": "2007",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+1. selector Peliculas / Series.
+	- buscar json segun seleccion
+	- almacenar los json en variables
+	- crear evento personalizado que muestre que json se cargo despues de seleccionar la categoria
+
+2. input para ingresar la busqueda.
+	- solo permitir letras, espacio y la tecla borrar
+	- bloquear el resto de teclas con keydown
+
+3. lista para mostrar resultados
+	- mostrar la lista en un <ul>
+
+4. funcion buscar 
+	- obtener los datos del archivo json
+	- convertir input de busqueda a minuscula .toLowerCase()
+	- recorrer el json que ahora debe ser un array
+	- buscar coincidencias con .filter() y .includes()
+	- crear <li> para mostrar el cover y el titulo
+
+5. eventos hover para mostrar sinopsis mouseover y mouseout para mostrar y ocultar la sinopsis

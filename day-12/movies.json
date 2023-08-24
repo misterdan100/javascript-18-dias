@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "nombre": "Titanic",
+            "sinopsis": "Una historia de amor en el trasatlántico Titanic durante su fatídico viaje inaugural.",
+            "year": "1997",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "El Padrino",
+            "sinopsis": "La historia de una familia de mafiosos sicilianos en Nueva York.",
+            "year": "1972",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Forrest Gump",
+            "sinopsis": "La vida de Forrest Gump, un hombre con discapacidad intelectual, a través de eventos históricos en Estados Unidos.",
+            "year": "1994",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Star Wars: Episodio IV - Una Nueva Esperanza",
+            "sinopsis": "La lucha de un grupo de rebeldes contra el Imperio Galáctico en una galaxia muy, muy lejana.",
+            "year": "1977",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Jurassic Park",
+            "sinopsis": "Un parque temático de dinosaurios se vuelve mortal cuando los dinosaurios escapan.",
+            "year": "1993",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "El Señor de los Anillos: La Comunidad del Anillo",
+            "sinopsis": "Un joven hobbit debe llevar un anillo mágico para destruirlo y salvar la Tierra Media del malvado Sauron.",
+            "year": "2001",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Harry Potter y la Piedra Filosofal",
+            "sinopsis": "Un joven mago descubre su verdadera identidad y asiste a la escuela de magia de Hogwarts.",
+            "year": "2001",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Matrix",
+            "sinopsis": "Un hacker descubre que el mundo tal como lo conoce es una simulación y se une a una rebelión contra las máquinas.",
+            "year": "1999",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "E.T. el Extraterrestre",
+            "sinopsis": "Un niño encuentra y ayuda a un amigable extraterrestre a regresar a su planeta natal.",
+            "year": "1982",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Gladiador",
+            "sinopsis": "Un ex general romano busca venganza contra el emperador que lo traicionó.",
+            "year": "2000",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Parque Jurásico",
+            "sinopsis": "Un parque temático de dinosaurios se vuelve mortal cuando los dinosaurios escapan.",
+            "year": "1993",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Los Vengadores",
+            "sinopsis": "Los superhéroes de Marvel se unen para enfrentar una amenaza alienígena.",
+            "year": "2012",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Toy Story",
+            "sinopsis": "Los juguetes cobran vida cuando los humanos no los están mirando.",
+            "year": "1995",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Avatar",
+            "sinopsis": "Un ex marine es enviado a una luna extraterrestre habitada por nativos en un cuerpo alienígena.",
+            "year": "2009",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Jurassic World",
+            "sinopsis": "El parque temático de dinosaurios vuelve a abrir con dinosaurios modificados genéticamente.",
+            "year": "2015",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Spider-Man: Un Nuevo Universo",
+            "sinopsis": "Un joven Spider-Man se encuentra con otros Spider-Personas de diferentes dimensiones.",
+            "year": "2018",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Pulp Fiction",
+            "sinopsis": "Historias interconectadas de criminales en Los Ángeles.",
+            "year": "1994",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "El Rey León",
+            "sinopsis": "Un joven león debe enfrentar sus responsabilidades como rey después de la muerte de su padre.",
+            "year": "1994",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "Avengers: Endgame",
+            "sinopsis": "Los héroes de Marvel se unen para enfrentar a Thanos y salvar el universo.",
+            "year": "2019",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        },
+        {
+            "nombre": "El Club de la Pelea",
+            "sinopsis": "Un hombre con insomnio forma un club secreto de lucha underground.",
+            "year": "1999",
+            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+        }
+    ]
+}
