@@ -4,121 +4,121 @@
             "nombre": "Juego de Tronos",
             "sinopsis": "Una serie épica de fantasía que sigue las luchas por el Trono de Hierro en el continente de Poniente.",
             "year": "2011",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "Friends",
-            "sinopsis": "Una comedia que sigue las vidas y relaciones de un grupo de amigos en Nueva York.",
-            "year": "1994",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "cover": "https://es.web.img2.acsta.net/c_310_420/pictures/19/03/22/10/08/5883111.jpg"
         },
         {
             "nombre": "Breaking Bad",
-            "sinopsis": "Un profesor de química se convierte en un fabricante de metanfetamina después de ser diagnosticado con cáncer.",
+            "sinopsis": "Un profesor de química se convierte en un fabricante de metanfetaminas después de ser diagnosticado con cáncer.",
             "year": "2008",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/18/04/04/22/52/3191575.jpg"
         },
         {
-            "nombre": "Stranger Things",
-            "sinopsis": "Un grupo de niños se enfrenta a fenómenos sobrenaturales en un pequeño pueblo.",
-            "year": "2016",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "nombre": "Friends",
+            "sinopsis": "Un grupo de amigos en Nueva York experimenta la vida y el amor juntos.",
+            "year": "1994",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/14/03/19/13/06/227047.jpg"
+        },
+        {
+            "nombre": "The Simpsons",
+            "sinopsis": "Las aventuras cómicas de una familia disfuncional de Springfield.",
+            "year": "1989",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/14/02/11/12/56/318203.jpg"
         },
         {
             "nombre": "The Office",
-            "sinopsis": "Una comedia que sigue la vida cotidiana de los empleados de una oficina de ventas de papel.",
+            "sinopsis": "Un falso documental que sigue la vida de los empleados de una oficina de ventas de papel.",
             "year": "2005",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/14/02/04/13/20/128334.jpg"
         },
         {
-            "nombre": "Game of Thrones",
-            "sinopsis": "Una serie épica de fantasía que sigue las luchas por el Trono de Hierro en el continente de Poniente.",
-            "year": "2011",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "nombre": "Stranger Things",
+            "sinopsis": "Un grupo de amigos se enfrenta a fuerzas sobrenaturales en la década de 1980.",
+            "year": "2016",
+            "cover": "https://es.web.img2.acsta.net/c_310_420/pictures/22/05/14/13/26/5638861.jpg"
+        },
+        {
+            "nombre": "The Crown",
+            "sinopsis": "Una mirada a la vida de la Reina Isabel II y los eventos históricos que la rodean.",
+            "year": "2016",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/22/10/18/00/44/2538124.jpg"
+        },
+        {
+            "nombre": "Mandalorian",
+            "sinopsis": "Un pistolero solitario viaja a través de la galaxia en la era posterior a la caída del Imperio.",
+            "year": "2019",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/19/08/23/15/39/2728562.jpg?coixp=49&coiyp=62"
+        },
+        {
+            "nombre": "The Walking Dead",
+            "sinopsis": "Un grupo de sobrevivientes lucha contra hordas de zombies en un mundo postapocalíptico.",
+            "year": "2010",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/78/35/82/20303823.jpg"
         },
         {
             "nombre": "Sherlock",
-            "sinopsis": "Una moderna adaptación de las historias de Sherlock Holmes en el Londres contemporáneo.",
+            "sinopsis": "Un detective brillante resuelve casos misteriosos en la Londres contemporánea.",
             "year": "2010",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "The Crown",
-            "sinopsis": "Un drama histórico que sigue el reinado de la Reina Isabel II del Reino Unido.",
-            "year": "2016",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "The Mandalorian",
-            "sinopsis": "Un cazarrecompensas viaja por la galaxia en el mundo de Star Wars.",
-            "year": "2019",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "The Big Bang Theory",
-            "sinopsis": "Una comedia sobre un grupo de científicos y su vida social.",
-            "year": "2007",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "Westworld",
-            "sinopsis": "Un parque de atracciones futurista habitado por androides se vuelve peligroso para los visitantes.",
-            "year": "2016",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "Stranger Things",
-            "sinopsis": "Un grupo de niños se enfrenta a fenómenos sobrenaturales en un pequeño pueblo.",
-            "year": "2016",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "Black Mirror",
-            "sinopsis": "Una serie de antología que explora la relación entre la tecnología y la sociedad.",
-            "year": "2011",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "cover": "https://es.web.img2.acsta.net/c_310_420/pictures/15/11/20/12/35/130260.jpg"
         },
         {
             "nombre": "The Witcher",
-            "sinopsis": "Un cazador de monstruos busca su destino en un mundo lleno de criaturas y magia.",
+            "sinopsis": "Un cazador de monstruos lucha contra bestias y demonios en un mundo lleno de magia y peligros.",
             "year": "2019",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/19/11/22/09/33/5060052.jpg"
         },
         {
-            "nombre": "Friends",
-            "sinopsis": "Una comedia que sigue las vidas y relaciones de un grupo de amigos en Nueva York.",
-            "year": "1994",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "The Office",
-            "sinopsis": "Una comedia que sigue la vida cotidiana de los empleados de una oficina de ventas de papel.",
-            "year": "2005",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "Breaking Bad",
-            "sinopsis": "Un profesor de química se convierte en un fabricante de metanfetamina después de ser diagnosticado con cáncer.",
-            "year": "2008",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "The Crown",
-            "sinopsis": "Un drama histórico que sigue el reinado de la Reina Isabel II del Reino Unido.",
-            "year": "2016",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
-        },
-        {
-            "nombre": "The Mandalorian",
-            "sinopsis": "Un cazarrecompensas viaja por la galaxia en el mundo de Star Wars.",
-            "year": "2019",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "nombre": "Black Mirror",
+            "sinopsis": "Una serie de antología que explora la relación entre la tecnología y la sociedad en el futuro cercano.",
+            "year": "2011",
+            "cover": "https://es.web.img2.acsta.net/c_310_420/pictures/23/05/24/11/22/4785740.jpg"
         },
         {
             "nombre": "The Big Bang Theory",
-            "sinopsis": "Una comedia sobre un grupo de científicos y su vida social.",
+            "sinopsis": "Las hilarantes aventuras de un grupo de físicos y su vecina aspirante a actriz.",
             "year": "2007",
-            "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yo1MyafIZvHez-kunaG7rrRdUBP2AD7aVmZLoRm04u0fYr0"
+            "cover": "https://es.web.img2.acsta.net/c_310_420/pictures/14/02/12/13/43/369027.jpg"
+        },
+        {
+            "nombre": "Westworld",
+            "sinopsis": "Un parque de atracciones futurista permite a los visitantes vivir sus fantasías más salvajes, pero las cosas se vuelven letales.",
+            "year": "2016",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/16/09/01/14/52/298580.jpg"
+        },
+        {
+            "nombre": "Smallville",
+            "sinopsis": "La historia de Clark Kent antes de convertirse en Superman, desde su adolescencia en Smallville hasta su vida como adulto en Metrópolis.",
+            "year": "2001",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/25/13/36/120735.jpg"
+        },
+        {
+            "nombre": "Arrow",
+            "sinopsis": "La historia de Oliver Queen, un playboy multimillonario que regresa a su ciudad natal de Star City después de cinco años de quedar varado en una isla desierta.",
+            "year": "2012",
+            "cover": "https://es.web.img2.acsta.net/c_310_420/medias/nmedia/18/90/72/11/20214318.jpg"
+        },
+        {
+            "nombre": "Sex Education",
+            "sinopsis": "Un grupo de adolescentes exploran su sexualidad mientras asisten a un instituto en Moordale, un pueblo ficticio de Inglaterra.",
+            "year": "2019",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/19/01/03/09/01/2915581.jpg"
+        },
+        {
+            "nombre": "Flash",
+            "sinopsis": "La historia de Barry Allen, un científico forense que es alcanzado por un rayo y se convierte en un velocista.",
+            "year": "2014",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/17/09/29/21/15/4233147.jpg"
+        },
+        {
+            "nombre": "American Gods",
+            "sinopsis": "La historia de Shadow Moon, un ex convicto que se convierte en el chófer y guardaespaldas de un misterioso hombre llamado Mr. Wednesday.",
+            "year": "2017",
+            "cover": "https://es.web.img3.acsta.net/c_310_420/pictures/18/12/19/11/26/4769726.jpg"
+        },
+        {
+            "nombre": "Dark",
+            "sinopsis": "Una historia de ciencia ficción que sigue a un grupo de personas en Winden, un pequeño pueblo alemán, mientras intentan resolver una serie de misterios que involucran viajes en el tiempo.",
+            "year": "2017",
+            "cover": "https://es.web.img2.acsta.net/c_310_420/pictures/17/11/10/12/27/3064798.jpg"
         }
     ]
 }

@@ -6,3 +6,7 @@ ul li img {
     width: 220px;
     height: 330px;
 }
+
+ul li:hover #sinopsis {
+    display: block;
+}
