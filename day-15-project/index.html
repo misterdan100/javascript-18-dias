@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body class="bg-gray-100 px-6">
+    <div id="titulo" class="text-center py-6">
+      <h1 class="text-5xl font-bold">Cell-DAN</h1>
+      <p class="font-bold">Manage your records</p>
+    </div>
+
+    <div id="app" class="grid grid-cols-3 gap-6">
+      <div id="col1" class="col-span-2 bg-white p-4 rounded-3xl shadow-xl shadow-gray-200">
+        <div >
+          <h2 class="text-green-500 font-bold mb-2">Data base</h2>
+          <table class="w-full">
+            <thead>
+              <tr class="text-gray-400 font-extralight border-b-2">
+                <th>ID</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Color</th>
+                <th>Storage</th>
+                <th>CPU Model</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+  
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>iPhone 14 Pro Max</td>
+                <td>Blue</td>
+                <td>128 GB</td>
+                <td>A16 Bionic</td>
+                <td>
+                  <button class="btnEdit ">Edit</button>
+                  <button class="btnRed">Delete</button>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>iPhone 14 Pro Max</td>
+                <td>Blue</td>
+                <td>128 GB</td>
+                <td>A16 Bionic</td>
+                <td>
+                  <button class="btnEdit ">Edit</button>
+                  <button class="btnRed">Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <div id="col2" class="bg-white p-4 rounded-3xl shadow-xl shadow-gray-200">
+        <h2 class="text-green-500 font-bold mb-2">Edit / Create</h2>
+
+        <div>
+          <label for="brand">Brand: </label>
+          <input type="text" id="brand" placeholder="Brand...">
+        </div>
+
+        <div>
+          <label for="model">Model: </label>
+          <input type="text" id="model" placeholder="Model...">
+        </div>
+
+        <div>
+          <label for="color">Color: </label>
+          <input type="text" id="color" placeholder="Color...">
+        </div>
+
+        <div>
+          <label for="storage">Storage: </label>
+          <input type="text" id="storage" placeholder="Storage...">
+        </div>
+
+        <div>
+          <label for="cpu">CPU Model: </label>
+          <input type="text" id="cpu" placeholder="CPU Model...">
+        </div>
+
+        <button type="submit" id="btnEdit">Edit</button>
+        <button type="submit" id="btnCreate">Create</button>
+
+      </div>
+
+    </div>
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
