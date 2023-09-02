@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Vite App</title>
   </head>
   <body class="bg-gray-100 px-6">
@@ -31,38 +32,20 @@
             </thead>
   
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>Apple</td>
-                <td>iPhone 14 Pro Max</td>
-                <td>Blue</td>
-                <td>128 GB</td>
-                <td>A16 Bionic</td>
-                <td>
-                  <button class="btnEdit ">Edit</button>
-                  <button class="btnRed">Delete</button>
-                </td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Apple</td>
-                <td>iPhone 14 Pro Max</td>
-                <td>Blue</td>
-                <td>128 GB</td>
-                <td>A16 Bionic</td>
-                <td>
-                  <button class="btnEdit ">Edit</button>
-                  <button class="btnRed">Delete</button>
-                </td>
-              </tr>
+
             </tbody>
           </table>
         </div>
 
       </div>
 
-      <div id="col2" class="bg-white p-4 rounded-3xl shadow-xl shadow-gray-200">
-        <h2 class="text-green-500 font-bold mb-2">Edit / Create</h2>
+      <div id="col2" class="bg-white p-4 rounded-3xl shadow-xl shadow-gray-200 grid gap-6 content-start">
+        <p class="text-green-500 font-bold mb-2">Edit / Create</p>
+
+        <div>
+          <label for="id">ID: </label>
+          <input type="text" id="id" disabled class="text-gray-400 font-bold" placeholder="automatic...">
+        </div>
 
         <div>
           <label for="brand">Brand: </label>
@@ -89,8 +72,12 @@
           <input type="text" id="cpu" placeholder="CPU Model...">
         </div>
 
-        <button type="submit" id="btnEdit">Edit</button>
-        <button type="submit" id="btnCreate">Create</button>
+        <div id="buttons" class="gap-8">
+          <button type="submit" id="btnEdit" class="btnEdit px-12 text-sm" disabled>Edit</button>
+          <button type="submit" id="btnCreate" class="btnCreate px-12 text-sm" >Create</button>
+        </div>
+
+        <!-- <p class="w-full bg-teal-500 rounded-xl font-bold text-white text-base uppercase text-center py-2 border-2 border-transparent border-teal-700">probando alerta!</p> -->
 
       </div>
 
@@ -98,6 +85,7 @@
 
 
 
-    <script type="module" src="/main.js"></script>
+    <!-- <script type="module" src="/main.js"></script> -->
+    <script type="module" src="/main2.js"></script>
   </body>
 </html>
